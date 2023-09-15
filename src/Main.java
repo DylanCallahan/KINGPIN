@@ -6,7 +6,7 @@ public class Main {
         for (String s : yorick) {
 
             temp++;
-            System.out.println(s+" "+temp);
+            System.out.println(s+" spot in array: "+temp);
         }
     }
 }
