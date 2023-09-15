@@ -3,10 +3,10 @@ public class Main {
         System.out.println("Hello world!");
         String[] yorick = {"big", "hulking", "massive", "yunki", "yur"};
         int temp = 0;
-        for(int i = 0; i < yorick.length;i++) {
-            System.out.println(yorick[i]);
+        for (String s : yorick) {
+
             temp++;
-            System.out.println(temp);
+            System.out.println(s+" "+temp);
         }
     }
 }
